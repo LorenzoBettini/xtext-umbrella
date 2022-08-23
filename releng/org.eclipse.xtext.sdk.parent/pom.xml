@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>1.7.0</tycho-version>
+		<tycho-version>3.0.0-SNAPSHOT</tycho-version>
 
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>
@@ -72,4 +72,11 @@
 			</plugin>
 		</plugins>
 	</build>
+
+<pluginRepositories>
+	<pluginRepository>
+      <id>tycho-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+    </pluginRepository>
+	</pluginRepositories>
 </project>
