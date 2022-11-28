@@ -47,7 +47,7 @@ pipeline {
       steps {
         sh "pwd && ls -la"
         dir('publishing') {
-          git branch: 'master', changelog: false, poll: false, url: 'https://github.com/xtext/publishing.git'
+          git branch: 'cd_prex2j', changelog: false, poll: false, url: 'https://github.com/xtext/publishing.git'
         }
         sh "pwd && ls -la"
       }
